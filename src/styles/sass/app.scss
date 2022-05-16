@@ -1,14 +1,18 @@
-// TFA Project
 
-// Projet scolaire TFA 2022 en B2G2
-// DWM
-
-// Migeot Pierre
 
 @import 'utils/variables';
 @import 'components/type';
 
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+@use "_normalize.css";
+@use "_type.scss";
+@use "_layout.scss";
+@use "_grid.scss";
+@use "_list.scss";
+@use "_form.scss";
+
+
 
 *{
     margin: 0;
