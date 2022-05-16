@@ -1,17 +1,26 @@
+// TFA Project
+
+// Projet scolaire TFA 2022 en B2G2
+// DWM
+
+// Migeot Pierre
+
 @import 'utils/variables';
 @import 'components/type';
 
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
 *{
     margin: 0;
     padding: 0;
 }
 
+
 .header__logo{
     width: 8em;
 }
 .header{
-    margin: 70px;
+    margin: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,6 +28,30 @@
 }
 
 
+
+
+
+@media (min-width: 1000px){
+
+    .header{
+        margin: 70px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+}
+
+
+
+
+
+
+@media (min-width: 1600px){
+
+}
 
 
 
@@ -63,7 +96,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #8800FF;
     transition: .4s;
     border-radius: 30px;
 }
